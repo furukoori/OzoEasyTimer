@@ -11,5 +11,5 @@
 #問題点
 - すべてのファイル合わせて130MB。アプリ本体の「sample.exe」とNodejs「node_modules」が重い。
   - electronで作っているので「sample.exe」が重いのは仕方ない
-  - 「node_modules」もデフォルト状態から複数Nodejsモジュールを追加しているので、個別インストールは難易度が高い
+  - 「node_modules」も純正状態から複数Nodejsモジュールを追加しているので、個別インストールは難易度が高い
   - これ以上小さくするのは不可能だと思う
