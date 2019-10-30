@@ -6,7 +6,7 @@
   - おそらくpipもついてくるのでコマンドプロンプトにて「py -m pip install Flask」でFlaskをインストール 
   - すでにnpmは入っているので「cd sample-win32-x64/resources/app」「npm install -D pyton-shell」でpython-shellをインストール
   - https://support.google.com/chrome/answer/95346?co=GENIE.Platform%3DDesktop&hl=ja よりGoogle Chromeのダウンロードを行う(保存場所はどこでもOK）
-  - https://sites.google.com/a/chromium.org/chromedriver/downloads　よりChrome Driverのダウンロードを行う(保存場所はどこでもOK）
+  - https://sites.google.com/a/chromium.org/chromedriver/downloads よりChrome Driverのダウンロードを行う(保存場所はどこでもOK）
   - ローカルディスク(C:)上に「chromedriver」というファイルを作り、Driverのzipファイルから解凍して取り出した「chromedriver.exe」を入れる。
     (つまりドライバへのPATHが「C:/chromedriver/chromedriver.exe」になる)
   - コマンドプロンプトにて「pip install selenium」でseleniumをインストール
