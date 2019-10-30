@@ -61,9 +61,9 @@ class Ozo(unittest.TestCase):
         driver.get("https://avantcorp.ozo-cloud.jp/ozo3/default.cfm?version=diva")
         driver.find_element_by_id("login_user").click()
         driver.find_element_by_id("login_user").clear()
-        driver.find_element_by_id("login_user").send_keys("kazuki.furukori@avantcorp.com")#ユーザ名
+        driver.find_element_by_id("login_user").send_keys("******@avantcorp.com")#ユーザ名
         driver.find_element_by_id("login_pwd").clear()
-        driver.find_element_by_id("login_pwd").send_keys("Jv2&3bP%dJ")#パスワード
+        driver.find_element_by_id("login_pwd").send_keys("***********")#パスワード
         driver.find_element_by_id("login_form").submit()
         driver.find_element_by_xpath(u"(.//*[normalize-space(text()) and normalize-space(.)='旧ワークフロー'])[1]/following::p[7]").click()
         driver.find_element_by_link_text(text[0]).click()
