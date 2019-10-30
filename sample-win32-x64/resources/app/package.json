@@ -1,0 +1,27 @@
+{
+  "name": "pythonapp",
+  "version": "1.0.0",
+  "description": "hoge",
+  "main": "main.js",
+  "repositiry": {
+    "type": "",
+    "url": ""
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron",
+    "electron": "NODE_ENV=development electron .",
+    "production": "NODE_ENV=production electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "asar": "^2.0.1",
+    "electron": "^6.0.10",
+    "electron-packager": "^14.0.6",
+    "python-shell": "^1.0.8",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
